@@ -1,0 +1,67 @@
+/* 480
+--------------------------------------------- */
+
+.header-area h1 { font-size: 2.618em; line-height: 1.3em; }
+.clients-area ul li { width: 31%; }
+.sub-menu li a, #tabs li a { margin: 0 .3em; }
+.team-member { width: 29%; }
+a.join-us { display: inline-block; }
+#history, #our-awards, #meet-the-team, #purple-people, .job, .jobs { padding: 2.618em 6%; }
+.contact-meta { float: left; width: 50%; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+  .hire-wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  .right-column, .left-column {
+    padding: 2% 4%;
+  }
+
+  #purple-academy .hire-wrapper .right-column:after {
+    content: "";
+    top: 0;
+    left: 4%;
+    width: 92%;
+    height: 1px;
+    background: #f0f0f0;
+    position: absolute;
+  }
+
+  #purple-academy {
+    padding-top: 3em;
+    padding-bottom: 0em;
+    background-color: #f0f0f0;
+  }
+  #purple-academy .hire-wrapper {
+    background-color: white;
+    padding-top: 2.618em;
+  }
+
+  .join-us-cta {
+    background: #4d454f;
+  }
+
+  .join-the-purple-academy {
+    text-align: center;
+  }
+
+  #benefits ul li {
+    width: 49%;
+    margin: 1% 2%;
+    height: 210px;
+  }
+  #benefits ul li:nth-of-type(2n) {
+    margin-right: 0%;
+  }
+  #benefits ul li:nth-of-type(1n) {
+    margin-left: 0%;
+  }
+  #benefits ul li .benefits-icon {
+    width: 35%;
+  }
+  #benefits ul li .benefits-text {
+    padding: 0 2% 2% 2%;
+    width: 100%;
+    float: left;
+  }

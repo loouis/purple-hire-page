@@ -33,7 +33,7 @@ body.work-for-us{
 	}
 
 	.discover-header{
-		background:$d-purple url('/images/header-image.jpg');
+		background:$d-purple url('http://ahoia.com/purple-hire-page/images/header-image.jpg');
 	}
 
 	a.join-us{
@@ -118,9 +118,16 @@ body.work-for-us{
 					content:"";
 					width:40px;
 					height:40px;
-					background: url('/images/tick.png') no-repeat;
-					background: url('/images/tick.svg') no-repeat;
+					background: url('http://ahoia.com/purple-hire-page/images/tick.png') no-repeat;
+					background: url('http://ahoia.com/purple-hire-page/images/tick.svg') no-repeat;
 				}
+			}
+		}
+	}
+	.left-column{
+		p{
+			&:nth-of-type(2){
+				padding-bottom:12%;
 			}
 		}
 	}
@@ -363,7 +370,7 @@ body.work-for-us{
 		}
 
 		#purple-life{
-			background: $d-purple url('/images/purple-life-bg.png') 50% 100%;
+			background: $d-purple url('http://ahoia.com/purple-hire-page/images/purple-life-bg.png') 50% 100%;
 			background-repeat: repeat-x;
 			padding-bottom:4%;
 
@@ -394,10 +401,11 @@ body.work-for-us{
 				p{
  					color:white;
  					position: relative;
- 					top: 50%;
-  					-webkit-transform: translateY(-0%);
-  					-ms-transform: translateY(-0%);
-					transform: translateY(-0%);
+ 					padding-top:0px;
+ 				// 	top: 50%;
+  			// 		-webkit-transform: translateY(-0%);
+  			// 		-ms-transform: translateY(-0%);
+					// transform: translateY(-0%);
  				}
 
 				&:hover{
@@ -406,9 +414,10 @@ body.work-for-us{
 						opacity: 1;
 
 						p{
-		  					-webkit-transform: translateY(-50%);
-		  					-ms-transform: translateY(-50%);
-							transform: translateY(-50%);
+							padding-top:20px;
+		  			// 		-webkit-transform: translateY(-50%);
+		  			// 		-ms-transform: translateY(-50%);
+							// transform: translateY(-50%);
 						}
 
 					}

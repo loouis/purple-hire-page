@@ -1,0 +1,114 @@
+/* 820
+--------------------------------------------- */
+  body.work-for-us p {
+    padding-bottom: 2%;
+  }
+  body.work-for-us .join-us-cta .hire-wrapper p {
+    padding-bottom: 0% !important;
+  }
+
+  .left-column, .right-column {
+    width: 50%;
+    float: left;
+    padding: 0% 4%;
+  }
+
+  .right-column {
+    margin-top: 7.1%;
+  }
+  .right-column:after {
+    display: none;
+  }
+
+  #purple-academy h4 {
+    text-align: left;
+  }
+  #purple-academy .hire-wrapper {
+    padding-bottom: 4%;
+  }
+  #purple-academy .right-column {
+    margin-top: 6.7%;
+  }
+
+  #hear-from-the-team .hire-wrapper {
+    max-width: 600px;
+  }
+
+  #purple-life {
+    background: #4d454f url("http://ahoia.com/purple-hire-page/images/purple-life-bg.png") 50% 100%;
+    background-repeat: repeat-x;
+    padding-bottom: 4%;
+  }
+  #purple-life .hire-wrapper {
+    margin-top: 2em;
+  }
+  #purple-life .hire-wrapper h4 {
+    text-align: left;
+  }
+  #purple-life .hire-wrapper .left-column p {
+    font-size: 1.2em;
+  }
+
+  #benefits ul {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  #benefits ul li {
+    width: 23.50%;
+    margin:5px;
+  /*  padding: 44px 35px;*/
+    height: 236px;
+  }
+  #benefits ul li p {
+    color: white;
+    position: relative;
+    padding-top:0;
+  }
+  #benefits .benefits-text {
+    opacity: 0;
+    display: none;
+  }
+  #benefits ul li:hover .benefits-text {
+    opacity: 1;
+    display: block;
+  }
+  #benefits ul li:hover .benefits-text p {
+    padding-top:20px;
+  }
+  #benefits ul li:hover .benefits-icon {
+    -webkit-transform: scale(0.2);
+            transform: scale(0.2);
+  }
+  #benefits ul li:nth-of-type(2n) {
+    margin-right: 2%;
+  }
+  #benefits ul li:nth-of-type(3n) {
+    margin-right: 2%;
+  }
+  #benefits ul li:nth-of-type(1n) {
+    margin-left: 0%;
+  }
+  #benefits ul li:nth-of-type(4n) {
+    margin-right: 0%;
+  }
+  #benefits ul li .benefits-icon {
+    width: 150px;
+    height: 150px;
+    background: #f0f0f0;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    margin-left: -75px;
+    border-radius: 100%;
+  }
+  #benefits ul li .benefits-text {
+    opacity: 0;
+    color: white;
+    background: #4d454f;
+    top: 0;
+    left: 0;
+    height: 236px;
+    padding: 15%;
+    position: absolute;
+    text-align: center;
+  }
