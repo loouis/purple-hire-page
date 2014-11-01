@@ -194,13 +194,13 @@ body.work-for-us{
 	@include triangle(top, 12px, $d-purple);
 
 	.gallery-team-heads-nav{
-		width:280px;
+		width:270px;
 		margin:0 auto;
 		overflow: hidden;	
 
  			a{
-			width:120px;
-			height:120px;
+			width:45px;
+			height:45px;
 			float:left;
 			margin:10px 10px 30px 10px;
 			border-radius:100%;
@@ -366,6 +366,20 @@ body.work-for-us{
 		#hear-from-the-team{
 			.hire-wrapper{
 				max-width: 600px;
+
+				.gallery-team-heads-nav{
+					width:400px;
+
+			 			a{
+						width:80px;
+						height:80px;
+						float:left;
+						margin:10px 10px 30px 10px;
+						border-radius:100%;
+						-moz-border-radius:100%;
+						-webkit-border-radius:100%;
+					}
+				}
 			}
 		}
 
@@ -460,7 +474,7 @@ body.work-for-us{
 				.benefits-text{
 					opacity: 0;
 					color:white;
-					background:rgba(77,69,79,1);
+					background:$blue;
 					top:0;
 					left:0;
 					height:236px;

@@ -2174,13 +2174,13 @@ body.work-for-us .join-the-purple-academy {
   border-top: 12px solid #4d454f;
 }
 #hear-from-the-team .gallery-team-heads-nav {
-  width: 280px;
+  width: 270px;
   margin: 0 auto;
   overflow: hidden;
 }
 #hear-from-the-team .gallery-team-heads-nav a {
-  width: 120px;
-  height: 120px;
+  width: 45px;
+  height: 45px;
   float: left;
   margin: 10px 10px 30px 10px;
   border-radius: 100%;
@@ -2305,6 +2305,18 @@ body.work-for-us .join-the-purple-academy {
   #hear-from-the-team .hire-wrapper {
     max-width: 600px;
   }
+  #hear-from-the-team .hire-wrapper .gallery-team-heads-nav {
+    width: 400px;
+  }
+  #hear-from-the-team .hire-wrapper .gallery-team-heads-nav a {
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin: 10px 10px 30px 10px;
+    border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+  }
 
   #purple-life {
     background: #4d454f url("http://ahoia.com/purple-hire-page/images/purple-life-bg.png") 50% 100%;
@@ -2370,7 +2382,7 @@ body.work-for-us .join-the-purple-academy {
   #benefits ul li .benefits-text {
     opacity: 0;
     color: white;
-    background: #4d454f;
+    background: #31b6ce;
     top: 0;
     left: 0;
     height: 236px;
