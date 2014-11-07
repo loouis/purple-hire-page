@@ -1719,7 +1719,6 @@ body {
 }
 
 a, p, h1, h2, h3, header, div, aside, footer, img, form, input {
-  -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
 
